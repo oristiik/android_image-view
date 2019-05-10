@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             android:weightSum="3"
+                                             android:layout_marginTop="100dp"
+>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="446dp"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+    >
+        <ImageView
+                android:id="@+id/iv_11"
+                android:scaleType="centerInside"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/uknown"
+                android:layout_weight="1"
+        >
+        </ImageView>
+        <ImageView
+                android:id="@+id/iv_12"
+                android:scaleType="centerInside"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/uknown"
+                android:layout_weight="1"
+        >
+        </ImageView>
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="150dp"
+    >
+        <ImageView
+                android:id="@+id/iv_21"
+                android:scaleType="centerInside"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/uknown"
+                android:layout_weight="1"
+        >
+        </ImageView>
+        <ImageView
+                android:id="@+id/iv_22"
+                android:scaleType="centerInside"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/uknown"
+                android:layout_weight="1"
+        >
+        </ImageView>
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="300dp"
+    >
+        <ImageView
+                android:id="@+id/iv_31"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/uknown"
+                android:scaleType="centerInside"
+                android:layout_weight="1"
+        >
+        </ImageView>
+        <ImageView
+                android:id="@+id/iv_32"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/uknown"
+                android:scaleType="centerInside"
+                android:layout_weight="1"
+        >
+        </ImageView>
+    </LinearLayout>
+    <android.support.constraint.Guideline android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                          android:id="@+id/guideline" app:layout_constraintGuide_begin="20dp"
+                                          android:orientation="vertical"/>
+</android.support.constraint.ConstraintLayout>
